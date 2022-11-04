@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="../css/cascading.css">
+  </head>
+
+  <body>
+      <header>
+        <img src="../vitlogo.png" alt="">
+        <div class="head-side">
+          <h1> FeedBack</h1>
+        </div>
+      </header>
+      <div class="head-btm-stu">
+      </div>
+
+      <form class="fb-frm" action="feedb.php" method="post">
+        <h1>Give your Review</h1>
+        <label for="name"><b>Your Name: </b></label>
+        <input type="text" placeholder="Enter Username" name="name" id="nam" required>
+        <label for="email"><b>Official Email Id: </b></label>
+        <input type="email" placeholder="Enter Username" name="email" id="ema" required>
+        <label for="uname"><b>Your comments</b></label><br>
+        <textarea name="comm" rows="8" cols="80">
+          Please enter your comments
+        </textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+  </body>
+</html>
